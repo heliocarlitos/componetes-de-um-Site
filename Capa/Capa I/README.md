@@ -1,7 +1,7 @@
 ### <a href="https://github.com/heliocarlitos/html-css-js/tree/main" target="_blank">Visualizar</a>
 # Licença MIT
 
-**Direitos autorais (c) <a href="https://github.com/hcadeveloper" target="_blank">HCA</a>**
+**Direitos autorais (c) <a href="https://github.com/hcadeveloper" target="_blank">HCA</a>** 
 
 **Você é livre para:**
 
