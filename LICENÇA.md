@@ -2,7 +2,7 @@
 
 **Direitos autorais (c) <a href="https://github.com/hcadeveloper" target="_blank">HCA</a>**
 
-**Você é livre para:**
+**Você é livre para:** 
 
 - **Compartilhar** - copiar e redistribuir o material em qualquer suporte ou formato;
 - **Adaptar** - remixar, transformar e criar a partir do material;
