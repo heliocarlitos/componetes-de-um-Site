@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --sempre-branca: #ffffff;
+    --sempre-azul: #0092ed;
+
+    --fundo-dark: #252525;
+ 
+    --texto-quase-branco: #cacaca;
+}
+body{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    background-color: var(--fundo-do-site);
+}
+.seccao-da-capa{
+    width: 100%;
+    display: flex;
+
+    color: var(--texto-quase-branco);
+    background-color: var(--sempre-branca);
+}
+.seccao-da-capa .capa{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.seccao-de-txt-e-btn{
+    color: var(--fundo-dark);
+    /* background-color: red; */
+    width: 890px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -5px;
+}
+.seccao-de-txt-e-btn h1{
+    margin: 10px 0;
+}
+.seccao-de-txt-e-btn .desc{
+    margin: 10px 0 30px 0;
+}
+.seccao-de-txt-e-btn a{
+    text-decoration: none;
+    font-size: 1.3em;
+    background-color: var(--sempre-azul);
+    color: var(--sempre-branca);
+    padding: 20px 40px;
+    border-radius: 50px;
+
+    &:hover{
+        opacity: 80%;
+    }
+}
+.seccao-da-capa .seccao-da-img img{
+    width: 830px;
+    height: 100vh;
+    right: 0;
+    top: 0;
+}
+
+@media screen and (max-width: 1273px){
+    .seccao-da-capa .capa{
+        flex-direction: column;
+        position: relative;
+    }
+    .seccao-da-capa .seccao-da-img img{
+        width: 830px;
+    }
+    .seccao-de-txt-e-btn{
+        width: 830px;
+    }
+}
+@media screen and (max-width: 827px){
+    .seccao-de-txt-e-btn{
+        height: 300px;
+        width: 500px;
+    }
+    .seccao-da-capa .seccao-da-img img{
+        height: 570px;
+        width: 570px;
+    }
+}
+@media screen and (max-width: 612px){
+    .seccao-de-txt-e-btn{
+        height: 400px;
+        width: 500px;
+    }
+    .seccao-de-txt-e-btn h1{
+        font-size: 1.3em;
+    }
+    .seccao-de-txt-e-btn a{
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+    .seccao-da-capa .seccao-da-img img{
+        height: 370px;
+        width: 370px;
+    }
+}
+@media screen and (max-width: 267px){
+    .seccao-da-capa .seccao-da-img img{
+        height: 270px;
+        width: 270px;
+    }
+}

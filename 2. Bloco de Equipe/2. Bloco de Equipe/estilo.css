@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --sempre-branca: #ffffff;
+    --sempre-azul: #0092ed;
+
+    --fundo-dark: #252525;
+    --fundo-do-site: #151515;
+ 
+    --texto-quase-branco: #cacaca;
+}
+body{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    background-color: var(--fundo-dark);
+    color: var(--texto-quase-branco);
+}
+.seccao-de-equipe{
+    width: 100%;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seccao-de-equipe .equipe{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.seccao-de-equipe .equipe .nossa-equipe{
+
+}
+.seccao-de-equipe .equipe .nossa-equipe p{
+    margin: 10px;
+    font-size: 2em;
+    font-weight: 600;
+}
+.seccao-de-equipe .equipe .seccao-de-card{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.seccao-de-equipe .equipe .seccao-de-card .card-de-equipe{
+    padding: 20px;
+    margin: 20px 40px;
+    border-radius: 10px;
+}
+.seccao-de-equipe .equipe .seccao-de-card .card-de-equipe .img-perfil{
+    margin-bottom: 20px;
+}
+.seccao-de-equipe .equipe .seccao-de-card .card-de-equipe .img-perfil img{
+    width: 200px;
+    border-radius: 50%;
+    transition: .2s;
+}
+.seccao-de-equipe .equipe .seccao-de-card .card-de-equipe .nome-perfil h4{
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+.seccao-de-equipe .equipe .seccao-de-card .card-de-equipe .cargo-perfil{
+    color: var(--texto-quase-branco);
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.seccao-de-equipe .equipe .seccao-de-card .card-de-equipe .desc-perfil{
+    max-width: 320px;
+    font-size: 1em;
+    text-wrap: balance;
+}
+
+@media screen and (max-width: 1321px){
+    .seccao-de-equipe{
+        margin-top: 5em;
+    }
+}
+@media screen and (max-width: 681px){
+    .seccao-de-equipe{
+        margin-top: 30em;
+    }
+}
+@media screen and (max-width: 316px){
+    .seccao-de-equipe .equipe .seccao-de-card .card-de-equipe .img-perfil img{
+        width: 120px;
+    }
+}
+@media screen and (max-width: 129px){
+    .seccao-de-equipe .equipe .seccao-de-card .card-de-equipe .img-perfil img{
+        width: 100px;
+    }
+    .seccao-de-equipe .equipe .nossa-equipe p{
+        font-size: 1.1em;
+    }
+}
