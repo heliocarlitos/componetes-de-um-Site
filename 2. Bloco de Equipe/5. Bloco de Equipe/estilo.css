@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --sempre-preto: #000;
+
+    --fundo-dos-cards: #f0f0f0;
+
+    --cor-de-texto-a: #242424;
+}
+body{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    background-color: var(--fundo-dark);
+    color: var(--texto-quase-branco);
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccao-dos-autores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.autores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-autores-a{
+    text-align: center;
+    background-color: var(--fundo-dos-cards);
+    margin: 4px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 170px;
+}
+.card-autores-a img {
+    width: 80px;
+    border-radius: 50px;
+}
+.seccao-info{
+    display: flex;
+    height: 340px;
+    flex-direction: column;
+    max-width: 370px;
+    margin: 10px;
+    padding: 30px 10px;
+}
+.seccao-info .tt{
+    margin: 5px 0;
+}
+.seccao-info .desc {
+    text-align: justify;
+    padding-top: 5px;
+}
+@media screen and (max-width: 745px){
+    main{
+        height: auto;
+    }
+    .seccao-dos-autores{
+        margin-top: 10px !important;
+    }
+}
